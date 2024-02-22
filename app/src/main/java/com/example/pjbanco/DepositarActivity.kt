@@ -15,6 +15,7 @@ class DepositarActivity : AppCompatActivity() {
         setContentView(R.layout.activity_depositar)
         setSupportActionBar(findViewById(R.id.toolbar4))
 
+        //teste de alteration
         val saldo = intent.getStringExtra("sSaldo")
         val txtSaldo = findViewById<TextView>(R.id.txtsaldo3)
         txtSaldo.setText(saldo.toString())
